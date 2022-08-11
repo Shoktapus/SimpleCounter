@@ -10,7 +10,8 @@ import Home from "./pages/home.jsx";
 let counter = 0;
 
 //render your react application
-setInterval(() => {
+setInterval(
+    () => {
     const six = Math.floor(counter/100000)%10
     const five = Math.floor(counter/10000)%10
     const four = Math.floor(counter/1000)%10

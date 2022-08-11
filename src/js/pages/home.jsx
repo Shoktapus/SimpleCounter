@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Clock} from "../components/clock.jsx"
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -10,9 +10,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = (props) => {
 	return (
 		<div className="counter">
-			<div className='clockIcon'>
-			<i className="fa-xl fa-regular fa-clock"></i>
-			</div>
+			<Clock/>
+			<Clock/>
+			<Clock/>
 			<div className='digit'>
 				{props.six}
 			</div>
